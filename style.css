@@ -1,0 +1,379 @@
+/* basic style*/
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Pattaya&display=swap');
+
+
+body{
+    
+    align-items: center;
+    justify-content: center;
+    padding:0%;
+    background-color: #EFEFED;
+    
+    
+    
+
+}
+h1{
+    font-family: Pattaya;
+    text-align: center;
+    font-size: 20px;
+    padding:25px;
+    color: #22333b;
+}
+
+#regalo{
+    background-image: url(images/mancha2.png);
+}
+
+p{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    padding:0px;
+    color: #22333b; 
+    margin-bottom: 35px;
+    margin-right: 35px;
+    margin-left: 35px;
+    
+}
+
+
+
+h4{
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    font-size: 14px;
+    padding:0px;
+    color: #22333b;  
+}
+
+a{
+    font-family: 'Comfortaa', sans-serif;
+    text-align:center;
+    text-decoration:none;
+    font-size: 20px;
+    padding:0px;
+    color: #22333b;   
+
+}
+div{
+    text-align: center;
+}
+#noNiños{
+    margin-top: 60px;
+    margin-bottom: 60px ;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.button{
+    
+    background-color: #bac6ae;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: solid #EFEFED;
+
+}
+
+.button2{
+    
+    background-color: #bac6ae;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: solid #EFEFED;
+
+}
+
+.inicio{
+    max-width: 100%;
+    position: relative;
+    box-shadow: none;
+
+}
+
+img{
+    max-width: 100%;
+    text-align: center;
+    padding: 0%;
+    box-shadow: 5px 5px 10px #EFEFED;
+   
+}
+.itinerario{
+    box-shadow: none;
+}
+.rubenyyatzil{
+    max-width: 100%;
+    text-align: center;
+    padding: 0%;
+    box-shadow:none;
+
+}
+
+
+
+.icons{
+    max-width: 30%;
+    box-shadow: none;
+}
+.presentIcons{
+    background-color: #bac6ae;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.noshadown{
+    box-shadow: none;
+}
+
+.maps{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 5%;
+    
+}
+
+
+
+
+.container-all{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+
+.slide{
+    display: flex;
+    transform: translate3d(0, 0, 0);
+    transition: all 600ms;
+    animation-name: autoplay;
+    animation-duration: 21s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.item-slide{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    flex-grow: 0;
+    max-width: 100%;
+
+}
+
+.pagination{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* iconos para el slider manuel*/
+
+.pagination-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width:16px;
+    height: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor:pointer;
+    background:rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+    text-align: center;
+    transition: all 300ms;
+
+}
+
+#botonCopiar{
+    width: 40%;
+    background-color: #bac6ae;
+    border-radius: 5px;
+    border: solid #EFEFED;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20 px;
+    color: #22333b;
+}
+
+#botonCopiar2{
+    width: 40%;
+    background-color: #bac6ae;
+    border-radius: 5px;
+    border: solid #EFEFED;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 20 px;
+    color: #22333b;
+}
+/*Tabla cuenta regresiva*/
+td {
+    color: #666666;
+    font-size: 40px;
+    font-family: 'Comfortaa', sans-serif; /* Utiliza la fuente Comfortaa */
+    text-align: center;
+    
+  }
+
+  th {
+    color: #666666;
+    text-align: center;
+     font-size: 12px;
+    font-family: 'Comfortaa', sans-serif; /* Utiliza la fuente Comfortaa*/
+   
+  }
+  table{
+    background-color: #bac6ae;
+    align-items: center;
+  }
+
+/*lo que hara el icono al pasar el cursor sobre el*/
+
+.pagination-item:hover{
+    transform: scale(2);
+}
+
+.pagination-item img{
+    display: inline-block;
+    max-width: none;
+    height:100%;
+    transform: scale(1);
+    opacity: 0;
+    transition: all 300ms;
+}
+
+.pagination-item:hover img{
+    opacity: 1;
+    transform: scale(1);
+
+}
+footer{
+    margin-top: -20px;
+    width: 100%;
+    background-color: #bac6ae;
+    text-align: center;
+}
+
+
+/* codigo para seleccionar manualmente con los iconos que imagen queremos ver*/
+
+/*Codigo para llegar a la imagen seleccionada*/
+
+input[id="1"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(0, 0, 0);
+}
+/*codigo para marcar el icono que corresponde a la imagen en la que estamo*/
+input[id="1"]:checked ~ .pagination .pagination-item[for="1"]{
+    background: #fff;
+}
+
+input[id="2"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 1), 0, 0);
+}
+
+input[id="2"]:checked ~ .pagination .pagination-item[for="2"]{
+    background: #fff;
+}
+
+input[id="3"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% *2), 0, 0);
+}
+
+input[id="3"]:checked ~ .pagination .pagination-item[for="3"]{
+    background: #fff;
+}
+
+input[id="4"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 3), 0, 0);
+}
+
+input[id="4"]:checked ~ .pagination .pagination-item[for="4"]{
+    background: #fff;
+}
+
+input[id="5"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 4), 0, 0);
+}
+
+input[id="5"]:checked ~ .pagination .pagination-item[for="5"]{
+    background: #fff;
+}
+
+input[id="6"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 5), 0, 0);
+}
+
+input[id="6"]:checked ~ .pagination .pagination-item[for="6"]{
+    background: #fff;
+}
+
+input[id="7"]:checked ~ .slide{
+    animation: none;
+    transform: translate3d(calc(-100% * 6), 0, 0);
+}
+
+input[id="7"]:checked ~ .pagination .pagination-item[for="7"]{
+    background: #fff;
+}
+
+/*Codigo para el display automatico usando keyframes*/
+
+@keyframes autoplay {
+
+    /*Caulcular el porcentaje dividiendo la cantidad de fotos entre 100 que 
+    representa el 100%*/
+    16%{
+        transform: translate3d(calc(-100% * 0), 0, 0);
+    }
+
+    /*ir sumando los porcentajes para establecer en que porcentaje de tiempo debe 
+    aparecer cada imagen*/
+
+    30%{
+        transform: translate3d(calc(-100% * 1), 0, 0);
+    }
+    44%{
+        transform: translate3d(calc(-100% * 2), 0, 0);
+    }
+    58%{
+        transform: translate3d(calc(-100% * 3), 0, 0);
+    }
+    72%{
+        transform: translate3d(calc(-100% * 4), 0, 0);
+    }
+    86%{
+        transform: translate3d(calc(-100% * 5), 0, 0);
+    }
+    100%{
+        transform: translate3d(calc(-100% * 6), 0, 0);
+    }
+    
+}
+
+
+
+
+
+
